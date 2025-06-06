@@ -8,7 +8,11 @@ body {
     margin: 0; 
     direction: rtl; 
 }
-
+.myclass {
+    display: block;
+    color: green;
+    font-size:50px;
+}
 .instagram-login-box {
     max-width: 350px;
     width: 100%; 
