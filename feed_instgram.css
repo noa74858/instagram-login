@@ -1,0 +1,64 @@
+/* עיצוב כללי של הדף */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+/* עיצוב הסרגל הצדדי */
+.sidebar {
+  width: 240px;             /* רוחב הסרגל */
+  height: 100vh;            /* גובה מלא של המסך */
+  border-left: 1px solid #dbdbdb;  /* קו הפרדה בצד שמאל */
+  padding: 20px;            /* ריווח פנימי */
+  box-sizing: border-box;
+}
+
+/* עיצוב הלוגו למעלה */
+.instagramLogo {
+  width: 110px;         /* רוחב הלוגו */
+  height: auto;         /* שומר על פרופורציה מקורית */
+  display: block;       /* כדי שהמרחקים יעבדו תקין */
+  margin-right: 10px;   /* מקדם את הלוגו ימינה */
+  margin-bottom: 30px;  /* רווח מתחת ללוגו */
+}
+
+
+/* עיצוב כל קישור בתפריט */
+.nav-links a {
+  display: flex;           /* יישור האייקון והטקסט באותה שורה */
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;   /* בלי קו תחתון */
+  color: black;
+  margin-bottom: 30px;
+  position: relative;      /* חשוב בשביל העיגול האדום */
+}
+
+/* עיצוב האייקונים */
+.nav-links i {
+  margin-left: 10px;       /* רווח בין האייקון לטקסט */
+  font-size: 18px;
+}
+
+/* עיצוב תמונת פרופיל קטנה */
+.profile-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;      /* עושה את התמונה עגולה */
+  margin-left: 10px;
+  object-fit: cover;       /* שהתמונה לא תתעוות */
+}
+
+.nav-group.bottom {
+  margin-top: 50px; /* מפריד בין שתי הקבוצות בצורה ברורה */
+}
+
+
+
+
+
+
+
+
+
