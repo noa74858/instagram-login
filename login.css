@@ -9,6 +9,10 @@ body {
     direction: rtl; 
 }
 
+.img-login {
+    width: 50%; 
+}
+
 .instagram-login-box {
     max-width: 350px;
     width: 100%; 
@@ -19,14 +23,16 @@ body {
 
 .btn-primary {
     background-color: #8d91fb !important; 
+    border: none !important;
     font-weight: bold; 
-    padding: 8px 0; 
+    padding: 4px 0; 
     font-size: 15px;
 }
 
 .form-control {
     background-color: #fafafa; 
     border: 1px solid #dbdbdb;
+    border-radius: 4px;
     font-size: 13px;
     padding: 9px 12px; 
 }
@@ -37,7 +43,7 @@ body {
 
 a {
     color: #4aa0f1;  
-    font-weight: 600; 
+    font-weight: 400; 
 }
 
 .fab.fa-facebook-square {

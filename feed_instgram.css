@@ -23,6 +23,11 @@ body {
   margin-bottom: 30px;  /* רווח מתחת ללוגו */
 }
 
+.nav-links {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* עיצוב כל קישור בתפריט */
 .nav-links a {
@@ -53,12 +58,3 @@ body {
 .nav-group.bottom {
   margin-top: 50px; /* מפריד בין שתי הקבוצות בצורה ברורה */
 }
-
-
-
-
-
-
-
-
-
