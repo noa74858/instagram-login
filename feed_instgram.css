@@ -5,6 +5,43 @@ body {
   background-color: #fff;
 }
 
+.main-layout {
+  display: flex;
+
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #8c14c7;
+  height: 100vh;
+  width: 600px;
+  flex: 3;
+}
+
+.stories-container{
+  border: #f401e4 1px solid;
+  height: 100px;
+  width: 100%;
+  
+}
+
+.posts-container {
+  border: #1310e0 2px solid;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-follows-container {
+  background-color: #13c693;
+  height: 100vh;
+  width: 100px;
+  flex: 1;
+}
+
 /* עיצוב הסרגל הצדדי */
 .sidebar {
   width: 240px;             /* רוחב הסרגל */
@@ -23,6 +60,12 @@ body {
   margin-bottom: 30px;  /* רווח מתחת ללוגו */
 }
 
+.nav-links {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+}
 
 /* עיצוב כל קישור בתפריט */
 .nav-links a {
