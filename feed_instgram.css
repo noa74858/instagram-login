@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 70%;
+  width: 65%;
 }
 
 .posts-container {
@@ -25,12 +25,6 @@ body {
   align-items: center;
 }
 
-.main-follows-container {
-  background-color: #13c693;
-  height: 100vh;
-  width: 30%;
-  flex: 1;
-}
 
 /* עיצוב הסרגל הצדדי */
 .sidebar {
@@ -244,4 +238,134 @@ img.profile-pic {
   padding: 0 10px 10px;
   color: #8e8e8e;
   font-size: 14px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!left side (following suggestions)!!!!!!!!!!!!!!!!*/
+
+.main-follows-container {
+  /*height: 100vh;
+  width: 30%;
+  flex: 1;
+ direction: rtl;
+  color: #262626;
+  font-size: 14px;*/
+
+  width: 280px; /* צמצום הרוחב */
+  margin-right: 20px; /* רווח מהמרכז */
+  margin-top: 40px; /* רווח מהחלק העליון */
+  direction: rtl;
+  color: #262626;
+  font-size: 15px;
+  flex-shrink: 0; /* מונע מה-sidebar להתכווץ */
+  position: sticky;
+  top: 80px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+
+.suggestions-myprofile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.profile-details {
+  flex-grow: 1;
+}
+
+.username-bold {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.name-light {
+  color: gray;
+  font-size: 13px;
+}
+
+.switch-link {
+  color: #0095f6;
+
+  text-decoration: none;
+}
+
+.suggestions-header {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.see-all {
+   color: rgb(3, 2, 2);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.suggestion-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.suggestion-details {
+  flex-grow: 1;
+}
+
+.light {
+  color: gray;
+  font-size: 13.5px;
+}
+
+.follow-link {
+  color: #0095f6;
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+/*.footer {
+  color: #c7c7c7;
+  font-size: 11px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.copyright {
+   align-items: left;
+}*/
+
+
+
+.footer {
+  color: #c7c7c7;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 20px;
+  width: 100%;
+  text-align: right; /* יישור לימין עבור עברית */
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer .copyright {
+  text-align: left; /* השורה של הקרדיט תלך שמאלה */
+  display: block;
+  margin-top: 8px;
 }
