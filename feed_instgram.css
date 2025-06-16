@@ -1,7 +1,7 @@
 /* עיצוב כללי של הדף */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+   font-family: 'Roboto', sans-serif;
   background-color: #fff;
 }
  /* מבנה הדף */
@@ -69,17 +69,17 @@ body {
 
 /* עיצוב האייקונים */
 .nav-links i {
-  margin-left: 10px;       /* רווח בין האייקון לטקסט */
+  margin-left: 15px;       /* רווח בין האייקון לטקסט */
   font-size: 18px;
 }
 
 /* עיצוב תמונת פרופיל קטנה */
-.profile-pic {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;      /* עושה את התמונה עגולה */
-  margin-left: 10px;
-  object-fit: cover;       /* שהתמונה לא תתעוות */
+img.profile-pic {
+    width: 24px; /* גודל רוחב - נסי 24px, 28px או 32px וראי מה נראה הכי טוב */
+    height: 24px; /* גודל גובה - חשוב שיהיה זהה לרוחב כדי לקבל עיגול מושלם */
+    border-radius: 50%; /* הופך את התמונה לעיגול */
+    object-fit: cover; 
+    margin-left: 2px; /* מוסיף רווח משמאל (כפי שהיה בקוד ששלחת) */
 }
 
 .nav-group.bottom {
