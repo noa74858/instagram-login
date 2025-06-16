@@ -4,6 +4,43 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fff;
 }
+ /* מבנה הדף */
+.main-layout {
+  display: flex;
+
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #145fc7;
+  height: 100vh;
+  width: 600px;
+  flex: 3;
+}
+
+.stories-container{
+  border: #f401e4 1px solid;
+  height: 100px;
+  width: 100%;
+  
+}
+
+.posts-container {
+  border: #afd321 2px solid;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-follows-container {
+  background-color: #13c693;
+  height: 100vh;
+  width: 100px;
+  flex: 1;
+}
 
 .main-layout {
   display: flex;
@@ -95,5 +132,3 @@ body {
 .nav-group.bottom {
   margin-top: 50px; /* מפריד בין שתי הקבוצות בצורה ברורה */
 }
-
-
