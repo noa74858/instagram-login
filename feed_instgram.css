@@ -13,20 +13,12 @@ body {
 .main-content-container {
   display: flex;
   flex-direction: column;
-  background-color: #145fc7;
   height: 100vh;
   width: 70%;
 }
 
-/* .stories-container{
-  border: #f401e4 1px solid;
-  height: 100px;
-  width: 100%;
-  
-} */
-
 .posts-container {
-  border: #afd321 2px solid;
+
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -100,7 +92,6 @@ body {
     padding: 15px 0;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .story-items-wrapper {
@@ -148,4 +139,109 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 70px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!post!!!!!!!!!!!!!!!!!!!!!!!*/
+.instagram-post {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.post-image img {
+  width: 100%;
+  display: block;
+}
+
+/* עיצוב שם מעלה הפוסט */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  direction: rtl;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.user-line {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.username {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+
+.time {
+  color: gray;
+  font-size: 13px;
+}
+
+.three-dots svg{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+/*/
+
+/*תחילת עיצוב 4 אייקונים*/
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.right-icons {
+  display: flex;
+  gap: 16px; /* ריווח בין שלושת האייקונים */
+}
+
+.left-icon {
+  margin-left: 10px; /* קצת ריווח מצד שמאל */
+}
+
+.post-actions svg {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+/*סיום עיצוב 4 אייקונים*/
+
+.likes-count {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.caption {
+  padding: 10px;
+  line-height: 1.4;
+}
+
+.caption .username {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.comments-count,
+.add-comment {
+  padding: 0 10px 10px;
+  color: #8e8e8e;
+  font-size: 14px;
 }
