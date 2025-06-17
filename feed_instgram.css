@@ -273,8 +273,8 @@ img.profile-pic {
 }
 
 .suggestions-myprofile-pic {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-left: 10px;
 }
@@ -319,8 +319,8 @@ img.profile-pic {
 }
 
 .suggestion-pic {
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   margin-left: 10px;
 }
@@ -331,7 +331,9 @@ img.profile-pic {
 
 .light {
   color: gray;
-  font-size: 13.5px;
+  font-size: 12px;
+
+
 }
 
 .follow-link {
@@ -343,9 +345,9 @@ img.profile-pic {
 
 .footer {
   color: #c7c7c7;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.6;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   text-align: right; /* יישור לימין עבור עברית */
 }
@@ -358,5 +360,6 @@ img.profile-pic {
 .footer .copyright {
   text-align: left; /* השורה של הקרדיט תלך שמאלה */
   display: block;
-  margin-top: 8px;
+  margin-top: 15px;
+   direction: ltr;
 }
