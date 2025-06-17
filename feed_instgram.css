@@ -172,7 +172,7 @@ img.profile-pic {
   align-items: center;
 }
 
-.profile-pic {
+img.profile-pic {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -201,7 +201,6 @@ img.profile-pic {
   height: 20px;
   cursor: pointer;
 }
-/*/
 
 /*תחילת עיצוב 4 אייקונים*/
 .post-actions {
