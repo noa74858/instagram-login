@@ -69,31 +69,34 @@ body {
 
 /* עיצוב תמונת פרופיל קטנה */
 img.profile-pic {
-    width: 24px; /* גודל רוחב - נסי 24px, 28px או 32px וראי מה נראה הכי טוב */
-    height: 24px; /* גודל גובה - חשוב שיהיה זהה לרוחב כדי לקבל עיגול מושלם */
-    border-radius: 50%; /* הופך את התמונה לעיגול */
+    width: 24px; 
+    height: 24px; 
+    border-radius: 50%;
     object-fit: cover; 
-    margin-left: 2px; /* מוסיף רווח משמאל (כפי שהיה בקוד ששלחת) */
+    margin-left: 2px; 
 }
 
 .nav-group.bottom {
-  margin-top: 50px; /* מפריד בין שתי הקבוצות בצורה ברורה */
+  margin-top: 40px; /* מפריד בין שתי הקבוצות בצורה ברורה */
 }
 
+/*סטוריז*/
 .stories-container {
     width: 100%;
     overflow-x: hide;
     padding: 15px 0;
     background-color: #fff;
     border-radius: 8px;
+    
 }
 
 .story-items-wrapper {
     margin: 0;
     padding: 0 15px;
     display: flex;
-    gap: 2%;
+    gap: 1.5%;
     justify-content: center;
+    
 }
 
 .story-item {
@@ -104,18 +107,19 @@ img.profile-pic {
     min-width: 70px;
     cursor: pointer;
     flex-shrink: 0;
+    margin-bottom: 7px;
 }
 
 .story-circle {
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
-    padding: 3px;
-    margin-bottom: 5px;
+    background-image: linear-gradient(to bottom right,#f8d331, #feda75, #fa7e1e, #e95950, #bc2a8d, #8a3ab9);
+    padding: 4px;
+    margin-bottom: 7px;
 }
 
 .story-circle img {
@@ -124,9 +128,10 @@ img.profile-pic {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #fff;
+
 }
 
-.username {
+.username-stories {
     font-size: 0.75em;
     color: #262626;
     white-space: nowrap;
@@ -184,7 +189,7 @@ img.profile-pic {
 
 .time {
   color: gray;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .three-dots svg{
@@ -244,20 +249,14 @@ img.profile-pic {
 /*!!!!!!!!!!!!!!!!!!!!!!left side (following suggestions)!!!!!!!!!!!!!!!!*/
 
 .main-follows-container {
-  /*height: 100vh;
-  width: 30%;
-  flex: 1;
- direction: rtl;
-  color: #262626;
-  font-size: 14px;*/
 
-  width: 280px; /* צמצום הרוחב */
+  width: 280px; 
   margin-right: 20px; /* רווח מהמרכז */
   margin-top: 40px; /* רווח מהחלק העליון */
   direction: rtl;
   color: #262626;
   font-size: 15px;
-  flex-shrink: 0; /* מונע מה-sidebar להתכווץ */
+  flex-shrink: 0; 
   position: sticky;
   top: 80px;
 }
@@ -336,18 +335,6 @@ img.profile-pic {
   text-decoration: none;
   font-size: 13.5px;
 }
-
-/*.footer {
-  color: #c7c7c7;
-  font-size: 11px;
-  line-height: 1.5;
-  margin-top: 30px;
-}
-
-.copyright {
-   align-items: left;
-}*/
-
 
 
 .footer {
