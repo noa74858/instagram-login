@@ -28,7 +28,7 @@ body {
 
 /* עיצוב הסרגל הצדדי */
 .sidebar {
-  width: 18%;             /* רוחב הסרגל */
+  width: 17%;             /* רוחב הסרגל */
   height: 100vh;            /* גובה מלא של המסך */
   border-left: 1px solid #dbdbdb;  /* קו הפרדה בצד שמאל */
   padding: 20px;            /* ריווח פנימי */
@@ -37,10 +37,9 @@ body {
 
 /* עיצוב הלוגו למעלה */
 .instagramLogo {
-  width: 110px;         /* רוחב הלוגו */
-  height: auto;         /* שומר על פרופורציה מקורית */
+  width: 110px;        
+  height: auto;         
   display: block;       /* כדי שהמרחקים יעבדו תקין */
-  margin-right: 10px;   /* מקדם את הלוגו ימינה */
   margin-bottom: 30px;  /* רווח מתחת ללוגו */
 }
 
@@ -60,6 +59,11 @@ body {
   margin-bottom: 30px;
   position: relative;      /* חשוב בשביל העיגול האדום */
 }
+
+.home-option{
+   font-weight: bold !important;
+}
+
 
 /* עיצוב האייקונים */
 .nav-links i {
