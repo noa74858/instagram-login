@@ -71,7 +71,7 @@ body {
 }
 
 /* עיצוב תמונת פרופיל קטנה */
-img.profile-pic {
+img.profile-pic-menu {
     width: 24px; 
     height: 24px; 
     border-radius: 50%;
