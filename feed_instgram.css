@@ -107,6 +107,7 @@ img.profile-pic {
   position: absolute;
   left: 9.5%;
   top: 21%;
+  cursor: pointer;
 }
 .arrow img {
     width: 10px;
