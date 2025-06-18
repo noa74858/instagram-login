@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif; 
+      font-family: 'Roboto', sans-serif;  
     background-color: #ffffff;
     display: flex; 
     justify-content: center;
@@ -22,7 +22,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #8d91fb !important; 
+    background-color: #5aafe7 !important; 
     border: none !important;
     font-weight: bold; 
     padding: 4px 0; 
@@ -49,4 +49,69 @@ a {
 .fab.fa-facebook-square {
     color: #0095f6;  
     font-size: 18px;  
+}
+
+.forgot-password-link {
+  color: #000000 !important; 
+}
+
+.footer-links-wrapper {
+  display: flex; 
+  flex-wrap: nowrap; /* מונע מהקישורים לרדת שורה */
+  justify-content: center; /* ממקם את הקישורים במרכז */
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+  padding-bottom: 5px; 
+}
+
+.footer-links-wrapper a {
+  white-space: nowrap; /* מונע שבירת שורה בתוך טקסט הקישור */
+  margin: 0 6px; /* מרווח אופקי בין הקישורים, התאם לפי הצורך */
+  font-size: 13px; /* הקטן את גודל הפונט של הקישורים כדי שיכנסו בשורה אחת */
+  color: #8e8e8e; /* צבע אפור כהה יותר, כמו באינסטגרם */
+  text-decoration: none; /* מסיר קו תחתון */
+}
+
+/* על col-md-8 (או col-12 במקרה שלנו) יכול להיות text-center שכבר ממקם במרכז */
+.col-12 {
+    /* לוודא שאין פה הגבלה מיותרת ברוחב אם יש כבר w-100 על ה-row */
+    max-width: 100%;
+}
+
+
+
+.copyright-language-wrapper {
+  display: flex; /* כדי שיהיו באותה שורה */
+  justify-content: center; /* ממקם את שניהם במרכז */
+  align-items: center; /* מיישר אנכית */
+  margin-top: 10px; 
+    font-size: 13px;
+}
+
+.copyright-text {
+  color: #8e8e8e;
+  font-size: 13px;
+  margin: 0;
+  margin-right: 20px; /* מרווח בין טקסט זכויות היוצרים לבחירת השפה */
+  direction: ltr; /* וודא שהטקסט LTR */
+  unicode-bidi: isolate-override;
+}
+
+.language-select{
+      text-decoration: none; /* מסיר קו תחתון */
+
+          color: #8e8e8e;
+            font-size: 13px;
+}
+
+
+.language-select {
+  -webkit-appearance: none; /* מסיר עיצוב ברירת מחדל */
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="%238e8e8e" d="M7 10l5 5 5-5z"/%3E%3C/svg%3E'); /* ה-SVG משמש כתמונת רקע */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  padding-right: 20px; /* כדי שלא יכסה את הטקסט */
 }
